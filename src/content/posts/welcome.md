@@ -4,6 +4,8 @@ description: "AI Alert tracks AI incidents and vulnerabilities. Each entry is da
 pubDate: 2026-05-02
 tags: ["meta"]
 category: "site"
+heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/ai-alert.org/welcome.png
+heroAlt: "What this site is for"
 ---
 
 AI Alert is a tracker. We catalog AI/ML incidents and vulnerabilities so practitioners and analysts have a single place to check what's happened, when, and where to read more.
