@@ -64,7 +64,7 @@ The counter-argument is that this campaign also produces moral hazard. If the co
 
 ## What this means for defenders right now
 
-For security teams, the headline is not the name. The headline is what the BKA's confidence level says about the maturity of cross-border ransomware attribution in 2026. If the German federal police can publicly identify the head of REvil five years after the fact, with detail down to alias history and birthplace, the same machinery is being pointed at every active ransomware brand right now. Threat intelligence teams should treat any 2025–2026 ransomware operator with the working assumption that their identity is, or will shortly be, known to at least one Western agency.
+For [security teams](https://techsentinel.news/posts/weekly-how-ai-assistants-are-moving-the-security-goalposts/), the headline is not the name. The headline is what the BKA's confidence level says about the maturity of cross-border ransomware attribution in 2026. If the German federal police can publicly identify the head of REvil five years after the fact, with detail down to alias history and birthplace, the same machinery is being pointed at every active ransomware brand right now. Threat intelligence [teams should](https://sentryml.com/posts/bridging-the-ai-agent-authority-gap-continuous-observability/) treat any 2025–2026 ransomware operator with the working assumption that their identity is, or will shortly be, known to at least one Western agency.
 
 That assumption changes how to read the threat landscape. It is no longer plausible that the operators behind the major brands believe themselves to be permanently anonymous. They are making explicit risk trades — accepting the eventual loss of anonymity in exchange for present cash flow — and that risk trade has implications for tradecraft. Expect more frequent rebranding. Expect shorter-lived affiliate programs. Expect more energy spent on operational security and less on volume.
 
@@ -78,3 +78,11 @@ For everyone running a ransomware-readiness program, the operational posture has
 - [German authorities identify REvil and GandCrab ransomware bosses — BleepingComputer](https://www.bleepingcomputer.com/news/security/german-authorities-identify-revil-and-gangcrab-ransomware-bosses/) — Reporting on the affiliate-program transition from GandCrab to REvil, the introduction of the leak-site/data-auction model, and the Kaseya supply-chain attack scope.
 - [BKA Identifies REvil Leaders Behind 130 German Ransomware Attacks — The Hacker News](https://thehackernews.com/2026/04/bka-identifies-revil-leaders-behind-130.html) — Detail on the BKA wanted notices themselves, the full alias list attributed to Shchukin, the XSS forum advertisement in June 2019, and the October 2024 Russian sentencing of four REvil members.
 - [German Police Unmask REvil Ransomware Leader — SecurityWeek](https://www.securityweek.com/german-police-unmask-revil-ransomware-leader/) — Confirms the BKA wanted-notice paths and the headline numbers on incident count, paid ransoms, and total damages.
+
+## Related across the network
+
+- [AI Agents Are Rewriting the Threat Model, and Most Security Teams Aren't Ready](https://techsentinel.news/posts/weekly-how-ai-assistants-are-moving-the-security-goalposts/) — *techsentinel.news*
+- [AI Assistants Are Rewriting the Threat Model, Not Just the Workflow](https://techsentinel.news/posts/how-ai-assistants-are-moving-the-security-goalposts/) — *techsentinel.news*
+- [FTC logs $2.1B in social media scam losses as TAKE IT DOWN deadline lands](https://neuralwatch.org/posts/threatsday-bulletin-sms-blaster-busts-openemr-flaws-600k-rob/) — *neuralwatch.org*
+- [The Agent Authority Gap Is an Observability Problem in a Security Costume](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+- [The Authority Gap Is an Observability Problem: What MLOps Teams Should Borrow](https://sentryml.com/posts/bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
