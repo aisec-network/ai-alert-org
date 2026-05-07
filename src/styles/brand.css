@@ -1,8 +1,4 @@
-/* Brand + visual variant for ai-alert-org
- * cluster: news
- * variant: v4_grid_cards_elevated
- * Generated 2026-05-07. Higher specificity than globals.css cluster rules. */
-
+/* Brand for ai-alert-org: cluster=news, variant=v4_grid_cards_elevated */
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
 
 body[data-cluster='news'] {
@@ -25,30 +21,4 @@ body[data-cluster='news'] {
 html.dark body[data-cluster='news'] {
   --bg: 253 248 240; --fg: 28 25 23; --surface: 245 245 244;
   --accent-500: 220 38 38; --accent-600: 220 38 38;
-}
-
-
-body[data-cluster='news'] {
-  --type-scale: 1.200;
-  --space-y: 0.75rem;
-}
-body[data-cluster='news'] h1 { font-size: calc(1rem * var(--type-scale) * var(--type-scale) * var(--type-scale) * var(--type-scale)); line-height: 1.05; }
-body[data-cluster='news'] h2 { font-size: calc(1rem * var(--type-scale) * var(--type-scale) * var(--type-scale)); line-height: 1.15; }
-body[data-cluster='news'] h3 { font-size: calc(1rem * var(--type-scale) * var(--type-scale)); line-height: 1.2; }
-body[data-cluster='news'] p { margin-block: var(--space-y); }
-
-
-/* Hero / header layout — variant: center */
-body[data-cluster='news'] .hero, body[data-cluster='news'] header.site-header { text-align: center; padding: 4rem 1rem; }
-
-/* Card style — variant: elevated */
-body[data-cluster='news'] article { background: rgb(245 245 244); box-shadow: 0 4px 12px rgb(0 0 0 / 0.15); border-radius: 12px; padding: 1.5rem; }
-
-/* Accent application — variant: button-fill */
-body[data-cluster='news'] .accent-btn, body[data-cluster='news'] button[type=submit] { background: rgb(220 38 38); color: rgb(253 248 240); border-radius: 8px; padding: 0.75em 1.5em; }
-
-/* Border radius — variant uses 12px */
-body[data-cluster='news'] article,
-body[data-cluster='news'] .card {
-  border-radius: 12px;
 }

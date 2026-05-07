@@ -5,13 +5,12 @@ const persona = {
   bioShort: "Former cybersecurity beat reporter. Now covering the AI security incident beat \u2014 breach disclosures, regulatory actions, and the week's most important threat intel.",
   bioLong: "Theo Voss covered cybersecurity for a national tech publication for four years before moving into independent AI security journalism. He writes with a journalist's discipline: primary sources, named quotes where possible, and a clear distinction between confirmed facts and speculation. He curates the AI incident beat daily and publishes weekly digest-style roundups across the news cluster.",
   voice: ["journalistic", "who-what-when", "quote-heavy", "neutral-but-sharp"],
-  sites: ["aiincidents-org", "aisecweekly-com", "aisecdigest-com", "techsentinel-news"],
+  sites: ["aiincidents-org", "aisecdigest-com", "aisecweekly-com", "techsentinel-news"],
 };
 const avatarUrl = "https://aisec-imagegen.th3gptoperator.workers.dev/?prompt=Professional%20headshot%20of%20Theo%20Voss%2C%20a%20white%20man%20in%20his%20late%2030s%2C%20journalistic%20look%2C%20neutral%20office%20background%2C%20photorealistic%2C%20professional%20headshot%2C%20square&aspect=square";
 ---
 <BaseLayout title={`About ${persona.name}`} description={persona.bioShort}>
-  <script type="application/ld+json" set:html={JSON.stringify({"@context": "https://schema.org", "@type": "Person", "name": "Theo Voss", "description": "Former cybersecurity beat reporter. Now covering the AI security incident beat \u2014 breach disclosures, regulatory actions, and the week's most important threat intel.", "url": "https://ai-alert.org/about", "knowsAbout": ["journalistic", "who-what-when", "quote-heavy", "neutral-but-sharp"], "sameAs": ["https://aiincidents.org/about", "https://aisecweekly.com/about", "https://aisecdigest.com/about", "https://techsentinel.news/about"], "jobTitle": "Journalistic"})}></script>
-
+  <script type="application/ld+json" set:html={JSON.stringify({"@context": "https://schema.org", "@type": "Person", "name": "Theo Voss", "description": "Former cybersecurity beat reporter. Now covering the AI security incident beat \u2014 breach disclosures, regulatory actions, and the week's most important threat intel.", "url": "https://ai-alert.org/about", "knowsAbout": ["journalistic", "who-what-when", "quote-heavy", "neutral-but-sharp"], "sameAs": ["https://aiincidents.org/about", "https://aisecdigest.com/about", "https://aisecweekly.com/about", "https://techsentinel.news/about"], "jobTitle": "Journalistic"})}></script>
   <article class="prose mx-auto max-w-2xl py-16 px-4">
     <h1>About {persona.name}</h1>
     <img src={avatarUrl} alt={persona.name} width="200" height="200" style="border-radius:50%;object-fit:cover;float:right;margin:0 0 1rem 1.5rem;" loading="eager" />
