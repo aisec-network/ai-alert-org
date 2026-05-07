@@ -1,5 +1,6 @@
 ---
 title: "What this site is for"
+author: "Theo Voss"
 description: "AI Alert tracks AI incidents and vulnerabilities. Each entry is dated, sourced, and verifiable."
 pubDate: 2026-05-02
 tags: ["meta"]

@@ -1,0 +1,33 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+const persona = {
+  name: "Theo Voss",
+  bioShort: "Former cybersecurity beat reporter. Now covering the AI security incident beat \u2014 breach disclosures, regulatory actions, and the week's most important threat intel.",
+  bioLong: "Theo Voss covered cybersecurity for a national tech publication for four years before moving into independent AI security journalism. He writes with a journalist's discipline: primary sources, named quotes where possible, and a clear distinction between confirmed facts and speculation. He curates the AI incident beat daily and publishes weekly digest-style roundups across the news cluster.",
+  voice: ["journalistic", "who-what-when", "quote-heavy", "neutral-but-sharp"],
+  sites: ["aiincidents-org", "aisecweekly-com", "aisecdigest-com", "techsentinel-news"],
+};
+const avatarUrl = "https://aisec-imagegen.th3gptoperator.workers.dev/?prompt=Professional%20headshot%20of%20Theo%20Voss%2C%20a%20white%20man%20in%20his%20late%2030s%2C%20journalistic%20look%2C%20neutral%20office%20background%2C%20photorealistic%2C%20professional%20headshot%2C%20square&aspect=square";
+---
+<BaseLayout title={`About ${persona.name}`} description={persona.bioShort}>
+  <article class="prose mx-auto max-w-2xl py-16 px-4">
+    <h1>About {persona.name}</h1>
+    <img src={avatarUrl} alt={persona.name} width="200" height="200" style="border-radius:50%;object-fit:cover;float:right;margin:0 0 1rem 1.5rem;" loading="eager" />
+    <p class="lead">{persona.bioShort}</p>
+    <p>{persona.bioLong}</p>
+    <h2>Voice</h2>
+    <p>{persona.voice.join(" · ")}</p>
+    {persona.sites.length > 0 && (
+      <>
+        <h2>Sister sites</h2>
+        <p>{persona.name} also writes for:</p>
+        <ul>
+          {persona.sites.map(s => {
+            const dom = s.replace(/-([^-]+)$/, ".$1");
+            return <li><a href={`https://${dom}`} target="_blank" rel="noreferrer">{dom}</a></li>;
+          })}
+        </ul>
+      </>
+    )}
+  </article>
+</BaseLayout>

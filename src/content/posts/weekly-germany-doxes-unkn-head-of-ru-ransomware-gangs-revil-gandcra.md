@@ -2,7 +2,7 @@
 title: "Germany names UNKN: what the BKA's REvil and GandCrab dox actually buys"
 description: "Germany's BKA has put a name and a face to UNKN, the operator behind GandCrab and REvil. Russia will not extradite, but the wanted notice is doing other work — and there is a lesson for everyone running a ransomware-readiness program."
 pubDate: 2026-05-05
-author: "AI Alert Desk"
+author: "Theo Voss"
 tags: ["ransomware", "revil", "gandcrab", "attribution", "threat-intel", "law-enforcement"]
 category: "deep-dive"
 sources:
