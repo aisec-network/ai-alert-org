@@ -1,0 +1,186 @@
+{
+  "title": "AI Security News & Reference",
+  "description": "Essential feeds, databases, and communities for staying current on AI security incidents, vulnerabilities, and policy developments.",
+  "categories": [
+    {
+      "name": "Newsletters",
+      "items": [
+        {
+          "title": "AI Security Weekly",
+          "url": "https://aisecweekly.com/",
+          "tag": "newsletter",
+          "description": "Curated weekly digest of AI security incidents, research, and tool releases."
+        },
+        {
+          "title": "The AI Security Digest",
+          "url": "https://aisecdigest.com/",
+          "tag": "newsletter",
+          "description": "News and analysis for practitioners following AI security developments."
+        },
+        {
+          "title": "Risky Business",
+          "url": "https://risky.biz/",
+          "tag": "podcast",
+          "description": "Leading information security podcast; regularly covers AI risk topics."
+        },
+        {
+          "title": "tl;dr sec Newsletter",
+          "url": "https://tldrsec.com/",
+          "tag": "newsletter",
+          "description": "Curated AppSec and security engineering links, including AI security coverage."
+        },
+        {
+          "title": "Last Week in AI",
+          "url": "https://lastweekinai.com/",
+          "tag": "newsletter",
+          "description": "Weekly roundup of AI research papers, product launches, and industry news."
+        }
+      ]
+    },
+    {
+      "name": "Reference Databases",
+      "items": [
+        {
+          "title": "AI Incidents Database (AIID)",
+          "url": "https://incidentdatabase.ai/",
+          "tag": "incidents",
+          "description": "Crowdsourced database of AI system failures, harms, and near-misses."
+        },
+        {
+          "title": "MITRE ATLAS",
+          "url": "https://atlas.mitre.org/",
+          "tag": "framework",
+          "description": "Adversarial threat landscape for AI systems \u2014 tactics, techniques, procedures."
+        },
+        {
+          "title": "OWASP LLM Top 10",
+          "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+          "tag": "framework",
+          "description": "Top 10 security risks for LLM applications, maintained by OWASP."
+        },
+        {
+          "title": "NVD (NIST National Vulnerability Database)",
+          "url": "https://nvd.nist.gov/",
+          "tag": "cve",
+          "description": "Authoritative source for CVE data including ML library vulnerabilities."
+        },
+        {
+          "title": "Jailbreak Database",
+          "url": "https://jailbreakdb.com/",
+          "tag": "jailbreaks",
+          "description": "Documented LLM jailbreak techniques and bypass methods."
+        }
+      ]
+    },
+    {
+      "name": "Primary News Sources",
+      "items": [
+        {
+          "title": "The Register \u2014 AI coverage",
+          "url": "https://www.theregister.com/Tag/artificial+intelligence/",
+          "tag": "news",
+          "description": "Tech journalism with strong AI security and criticism coverage."
+        },
+        {
+          "title": "Wired \u2014 AI section",
+          "url": "https://www.wired.com/tag/artificial-intelligence/",
+          "tag": "news",
+          "description": "Long-form coverage of AI policy, safety, and societal impact."
+        },
+        {
+          "title": "IEEE Spectrum \u2014 AI & Robotics",
+          "url": "https://spectrum.ieee.org/tag/artificial-intelligence",
+          "tag": "technical",
+          "description": "Technical news with strong engineering credibility."
+        },
+        {
+          "title": "VentureBeat AI",
+          "url": "https://venturebeat.com/category/ai/",
+          "tag": "news",
+          "description": "Enterprise AI news, product launches, and research coverage."
+        },
+        {
+          "title": "MIT Technology Review",
+          "url": "https://www.technologyreview.com/",
+          "tag": "analysis",
+          "description": "Deep analysis of AI developments, policy, and societal implications."
+        }
+      ]
+    },
+    {
+      "name": "Standards & Style Guides",
+      "items": [
+        {
+          "title": "AP Stylebook \u2014 AI and Tech Guide",
+          "url": "https://www.apstylebook.com/",
+          "tag": "style",
+          "description": "Industry-standard style guide for AI and technology reporting."
+        },
+        {
+          "title": "Reuters Handbook of Journalism",
+          "url": "https://handbook.reuters.com/",
+          "tag": "style",
+          "description": "Reuters editorial standards and values for factual, accurate reporting."
+        },
+        {
+          "title": "SPJ Code of Ethics",
+          "url": "https://www.spj.org/ethicscode.asp",
+          "tag": "ethics",
+          "description": "Society of Professional Journalists ethical standards, relevant to AI coverage."
+        }
+      ]
+    },
+    {
+      "name": "Communities",
+      "items": [
+        {
+          "title": "AI Safety Forum",
+          "url": "https://www.alignmentforum.org/",
+          "tag": "forum",
+          "description": "Technical AI safety and alignment discussions."
+        },
+        {
+          "title": "r/AIRisk",
+          "url": "https://www.reddit.com/r/AIRisk/",
+          "tag": "reddit",
+          "description": "Discussion of existential and near-term AI risk."
+        },
+        {
+          "title": "MLSecOps Community",
+          "url": "https://mlsecops.com/community",
+          "tag": "community",
+          "description": "Community for security engineers working with ML systems."
+        },
+        {
+          "title": "NIST AI Public Working Group",
+          "url": "https://www.nist.gov/artificial-intelligence",
+          "tag": "policy",
+          "description": "NIST AI programs, including AI RMF participation and comment periods."
+        }
+      ]
+    },
+    {
+      "name": "Training & Craft",
+      "items": [
+        {
+          "title": "Poynter NewsU \u2014 Data Journalism",
+          "url": "https://www.poynter.org/",
+          "tag": "training",
+          "description": "Journalism training including coverage of tech and AI topics."
+        },
+        {
+          "title": "Knight Center for Journalism \u2014 AI Courses",
+          "url": "https://knightcenter.utexas.edu/",
+          "tag": "training",
+          "description": "Free and low-cost online courses covering AI in journalism."
+        },
+        {
+          "title": "Investigative Reporters and Editors (IRE)",
+          "url": "https://www.ire.org/",
+          "tag": "training",
+          "description": "Resources for data-driven and investigative journalism including AI coverage."
+        }
+      ]
+    }
+  ]
+}

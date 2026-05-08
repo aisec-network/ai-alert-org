@@ -1,0 +1,129 @@
+{
+  "title": "AI Security News, Incidents & OSINT Tools",
+  "description": "Sources, dashboards, and tools for tracking AI security incidents, vendor disclosures, regulatory actions, and the rapidly-evolving threat landscape.",
+  "categories": [
+    {
+      "name": "Incident Trackers",
+      "tools": [
+        {
+          "name": "AI Incident Database (Partnership on AI)",
+          "url": "https://incidentdatabase.ai/",
+          "license": "CC-BY",
+          "blurb": "Open-source database of AI incidents — categorized, sourced, dated.",
+          "our_take": "The reference incident database. Submit reports; cite entries; cross-reference with our coverage."
+        },
+        {
+          "name": "OECD AI Incidents Monitor",
+          "url": "https://oecd.ai/en/incidents",
+          "license": "Free",
+          "blurb": "Government-tier incident tracking — slower but authoritative.",
+          "our_take": "Use as a credibility signal. If OECD has an entry, the incident has been independently verified by multiple sources."
+        },
+        {
+          "name": "MITRE ATLAS Case Studies",
+          "url": "https://atlas.mitre.org/studies/",
+          "license": "Free",
+          "blurb": "Adversarial attack case studies on real ML systems — formatted to ATT&CK-style technique mapping.",
+          "our_take": "Case studies are smaller in number but deeper in technical detail than other databases."
+        },
+        {
+          "name": "AVID (AI Vulnerability Database)",
+          "url": "https://avidml.org/",
+          "license": "CC-BY",
+          "blurb": "Vulnerability-focused (vs incident-focused) database for AI/ML.",
+          "our_take": "Complements MITRE ATLAS. Use both."
+        }
+      ]
+    },
+    {
+      "name": "Newsletters & Aggregators",
+      "tools": [
+        {
+          "name": "tldrsec",
+          "url": "https://tldrsec.com/",
+          "license": "Free",
+          "blurb": "Weekly security newsletter — covers AI security alongside traditional security.",
+          "our_take": "Required reading. Curation quality is high; filters noise effectively."
+        },
+        {
+          "name": "Risky.Biz",
+          "url": "https://risky.biz/",
+          "license": "Free + paid",
+          "blurb": "Long-running infosec podcast/newsletter; AI security is a recurring beat.",
+          "our_take": "The podcast is one of the few infosec shows that gets AI right. The newsletter is solid."
+        },
+        {
+          "name": "Embedded.ai",
+          "url": "https://embedded.substack.com/",
+          "license": "Free + paid",
+          "blurb": "AI policy and risk newsletter from Helen Toner.",
+          "our_take": "Less day-to-day operational; more policy and capability landscape."
+        }
+      ]
+    },
+    {
+      "name": "Vendor Advisory Pages",
+      "tools": [
+        {
+          "name": "OpenAI Trust Portal",
+          "url": "https://trust.openai.com/",
+          "license": "Free",
+          "blurb": "OpenAI's security disclosures and SOC 2 documentation.",
+          "our_take": "Subscribe to RSS. Vendor-tier disclosures appear here before press coverage."
+        },
+        {
+          "name": "Anthropic Trust Center",
+          "url": "https://trust.anthropic.com/",
+          "license": "Free",
+          "blurb": "Anthropic's compliance and security disclosure portal.",
+          "our_take": "Same playbook as OpenAI. Subscribe to updates."
+        },
+        {
+          "name": "Hugging Face Security",
+          "url": "https://huggingface.co/docs/hub/en/security",
+          "license": "Free",
+          "blurb": "HF's vulnerability disclosure procedures and security advisories.",
+          "our_take": "Most ML supply-chain CVEs land here first."
+        }
+      ]
+    },
+    {
+      "name": "Regulatory Trackers",
+      "tools": [
+        {
+          "name": "EU AI Act compliance tracker",
+          "url": "https://artificialintelligenceact.eu/",
+          "license": "Free",
+          "blurb": "Independent tracker of EU AI Act implementation milestones, secondary legislation, and provider obligations.",
+          "our_take": "Better than the official EUR-Lex source for following implementation pace."
+        },
+        {
+          "name": "Stanford HAI AI Index",
+          "url": "https://aiindex.stanford.edu/",
+          "license": "Free",
+          "blurb": "Annual report on AI capability, deployment, and policy landscape.",
+          "our_take": "The single best annual snapshot of where AI is. Cite it; reference it."
+        }
+      ]
+    },
+    {
+      "name": "Detection & Forensics",
+      "tools": [
+        {
+          "name": "GPTZero",
+          "url": "https://gptzero.me/",
+          "license": "Commercial / Free tier",
+          "blurb": "AI-generated text detector.",
+          "our_take": "Detection accuracy is unreliable enough that we don't recommend using it for high-stakes decisions. Inform readers; don't gate on it."
+        },
+        {
+          "name": "DetectGPT",
+          "url": "https://github.com/eric-mitchell/detect-gpt",
+          "license": "Apache 2.0",
+          "blurb": "Research-grade AI text detector based on probability curvature.",
+          "our_take": "Better methodology than commercial tools but suffers the same fundamental problem: detection is brittle to paraphrase and editing."
+        }
+      ]
+    }
+  ]
+}
