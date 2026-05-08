@@ -1,24 +1,35 @@
-/* Brand for ai-alert-org: cluster=news, variant=v4_grid_cards_elevated */
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap");
+/* Brand for ai-alert-org: identity=f23_sans_publicsans_publicsans+p13_h248_ink+dashboard+v10_almanac */
 
-body[data-cluster='news'] {
-  --bg: 253 248 240;
-  --fg: 28 25 23;
-  --surface: 245 245 244;
-  --muted: 253 248 240;
-  --muted-fg: 120 113 108;
-  --border: 120 113 108;
-  --font-display: "Playfair Display", system-ui, sans-serif;
-  --font-body: "Source Sans 3", system-ui, sans-serif;
-  --accent-400: 220 38 38;
-  --accent-500: 220 38 38;
-  --accent-600: 220 38 38;
-  --accent-700: 220 38 38;
-  --brand-tone: "urgent-editorial-red";
-  --brand-accent-rgb: 220 38 38;
-  --brand-variant: "v4_grid_cards_elevated";
+body[data-cluster] {
+  --bg: 255 255 255;
+  --fg: 10 10 10;
+  --muted: 245 245 245;
+  --muted-fg: 80 80 80;
+  --border: 220 220 220;
+  --surface: 255 255 255;
+  --surface-alt: 245 245 245;
+  --font-display: "Public Sans", "Helvetica Neue", system-ui, sans-serif;
+  --font-body: "Public Sans", "Helvetica Neue", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --brand-accent-rgb: 60 36 219;
+  --brand-identity-font: "f23_sans_publicsans_publicsans";
+  --brand-identity-palette: "p13_h248_ink";
+  --brand-identity-layout: "dashboard";
+  --brand-identity-voice: "v10_almanac";
 }
-html.dark body[data-cluster='news'] {
-  --bg: 253 248 240; --fg: 28 25 23; --surface: 245 245 244;
-  --accent-500: 220 38 38; --accent-600: 220 38 38;
+
+html.dark body[data-cluster] {
+  --bg: 10 10 10;
+  --fg: 240 240 240;
+  --muted: 22 22 22;
+  --muted-fg: 160 160 160;
+  --border: 50 50 50;
+  --surface: 10 10 10;
+  --surface-alt: 22 22 22;
+  --brand-accent-rgb: 100 79 238;
 }
+
+/* Density modifiers */
+body.density-loose  { --space-section: 5rem; }
+body.density-normal { --space-section: 3rem; }
+body.density-dense  { --space-section: 1.5rem; }
