@@ -1,0 +1,17 @@
+# AI Alert
+
+> An incident and vulnerability tracker for AI/ML systems. Covering CVEs, model exploits, supply chain threats, and real-world AI security incidents — tracked, sourced, and dated.
+
+## Docs
+
+- [About](https://ai-alert.org/about): Editorial standards, coverage scope, and team.
+- [Archive](https://ai-alert.org/posts): Full archive of all incident reports and analyses.
+- [RSS Feed](https://ai-alert.org/rss.xml): Subscribe to new entries via RSS.
+- [Sitemap](https://ai-alert.org/sitemap-index.xml): Full site sitemap for crawlers.
+
+## Topics
+
+- [CVE Roundups](https://ai-alert.org/posts): Weekly digests of AI/ML CVEs from NVD and vendor advisories.
+- [Incident Deep-Dives](https://ai-alert.org/posts): Analysis of real-world AI security incidents.
+- [Jailbreak & Prompt Injection](https://ai-alert.org/posts): Taxonomy and case studies of LLM exploits.
+- [Supply Chain Threats](https://ai-alert.org/posts): Risks from model files, dependencies, and HuggingFace.
