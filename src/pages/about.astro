@@ -8,6 +8,14 @@ const persona = {
   sites: ["aiincidents-org", "aisecdigest-com", "aisecweekly-com", "techsentinel-news"],
 };
 const avatarUrl = "https://aisec-imagegen.th3gptoperator.workers.dev/?prompt=Professional%20headshot%20of%20Theo%20Voss%2C%20a%20white%20man%20in%20his%20late%2030s%2C%20journalistic%20look%2C%20neutral%20office%20background%2C%20photorealistic%2C%20professional%20headshot%2C%20square&aspect=square";
+const publication = {
+  name: "AI Alert",
+  domain: "ai-alert.org",
+  mission: "AI Alert is an incident and vulnerability tracker for AI and ML systems — model leaks, training-data exposures, jailbreak disclosures, ML CVEs, and vendor security advisories, logged with primary sources and dates.",
+  audience: "Security teams, ML engineers, and researchers who need a reliable, sourced record of what is actually breaking in deployed AI systems. Every entry is linked to a primary source — no unattributed claims.",
+  pillars: ["AI/ML incident reports with sourced timelines", "Vulnerability and CVE disclosures in ML frameworks", "Jailbreak and model-abuse disclosures", "Vendor security advisories and patches", "Incident analysis and post-mortems"],
+  cta: "Subscribe to the RSS feed for real-time incident alerts. To report a new AI/ML incident or vulnerability, email the editorial desk with a primary-source link.",
+};
 ---
 <BaseLayout title={`About ${persona.name}`} description={persona.bioShort}>
   <script type="application/ld+json" set:html={JSON.stringify({"@context": "https://schema.org", "@type": "Person", "name": "Theo Voss", "description": "Former cybersecurity beat reporter. Now covering the AI security incident beat \u2014 breach disclosures, regulatory actions, and the week's most important threat intel.", "url": "https://ai-alert.org/about", "knowsAbout": ["journalistic", "who-what-when", "quote-heavy", "neutral-but-sharp"], "sameAs": ["https://aiincidents.org/about", "https://aisecdigest.com/about", "https://aisecweekly.com/about", "https://techsentinel.news/about"], "jobTitle": "Journalistic"})}></script>
@@ -30,5 +38,15 @@ const avatarUrl = "https://aisec-imagegen.th3gptoperator.workers.dev/?prompt=Pro
         </ul>
       </>
     )}
+    <hr />
+    <h2>About This Publication</h2>
+    <p>{publication.mission}</p>
+    <p>{publication.audience}</p>
+    <h3>What we cover</h3>
+    <ul>
+      {publication.pillars.map(p => <li>{p}</li>)}
+    </ul>
+    <h3>Stay current</h3>
+    <p>{publication.cta}</p>
   </article>
 </BaseLayout>

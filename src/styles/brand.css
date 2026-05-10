@@ -26,7 +26,7 @@ html.dark body[data-cluster] {
   --border: 50 50 50;
   --surface: 10 10 10;
   --surface-alt: 22 22 22;
-  --brand-accent-rgb: 100 79 238;
+  --brand-accent-rgb: 255 255 255;
 }
 
 /* Density modifiers */

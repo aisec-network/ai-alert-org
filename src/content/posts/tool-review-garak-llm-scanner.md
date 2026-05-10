@@ -15,7 +15,7 @@ sources:
   - title: "Garak documentation"
     url: "https://docs.garak.ai"
 schema:
-  type: "Review"
+  type: "TechArticle"
 ---
 
 Garak (Generative AI Red-teaming and Assessment Kit) is an open-source LLM vulnerability scanner developed at NVIDIA. It's the closest thing the field has to a systematic automated testing framework for LLM security properties — not a replacement for human red-teaming, but a repeatable, scriptable first pass that organizations can integrate into CI/CD pipelines or pre-deployment validation.

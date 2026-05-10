@@ -15,7 +15,7 @@ sources:
   - title: "Anthropic's model card and red-teaming disclosures"
     url: "https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms"
 schema:
-  type: "HowTo"
+  type: "TechArticle"
 ---
 
 Red-teaming — organized adversarial testing by a dedicated team trying to find what defenses miss — is a mature practice in traditional security. Applied to AI systems, the goal is the same but the techniques are substantially different. You're not looking for unpatched CVEs or misconfigured network services; you're looking for failure modes baked into the model's weights and the application's prompt architecture.
