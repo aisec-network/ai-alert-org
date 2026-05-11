@@ -72,9 +72,16 @@ Red-team findings are not all gaps. Several defensive patterns show consistent e
 
 For teams deploying or operating enterprise LLM systems, the [OWASP LLM Top 10](https://owasp.org/www-project-top-10-for-large-language-model-applications/) and NIST AI RMF provide structured frameworks for assessing these risks. The [AI red teaming guide](/posts/ai-red-teaming-guide/) on this site covers tooling and methodology for conducting internal assessments. For automated scanning coverage, [aisecreviews.com](https://aisecreviews.com) reviews current LLM security testing tools.
 
+**Related resources:** [aiattacks.dev](https://aiattacks.dev) catalogs the current landscape of LLM attack techniques referenced in enterprise red-team engagements. For the defense side of the equation — guardrail architectures, output filtering, and privilege controls — [aidefense.dev](https://aidefense.dev) tracks what practitioners are deploying. Benchmarks for evaluating how deployed systems fare against these techniques are available at [aisecbench.com](https://aisecbench.com).
+
 ## Sources
 
 - [Microsoft AI Red Team](https://www.microsoft.com/en-us/security/blog/2023/08/07/microsoft-ai-red-team-building-future-of-safer-ai/) — methodology and findings from Microsoft's internal AI red-team program.
 - [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/NIST.AI.100-1.pdf) — government framework for AI risk assessment and management.
 - [OWASP LLM Top 10 2025](https://genai.owasp.org) — top vulnerability classes in LLM applications.
 - [Garak: LLM Vulnerability Scanner](https://github.com/leondz/garak) — open-source tool for automated LLM security assessment.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

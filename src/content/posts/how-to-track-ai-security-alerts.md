@@ -219,3 +219,8 @@ For teams building out AI security alert processes from scratch, the [AI securit
 - [NIST AI Risk Management Framework](https://www.nist.gov/system/files/documents/2023/01/26/AI%20RMF%201.0.pdf) — NIST AI RMF 1.0 document.
 - [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — KEV catalog with JSON feed.
 - [NVD CVE Feed](https://nvd.nist.gov/vuln/search) — primary CVE database.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

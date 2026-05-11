@@ -80,8 +80,15 @@ This creates a structural detection gap: an organization can run a comprehensive
 
 Closing this gap requires moving beyond accuracy benchmarks to adversarial behavioral testing — specifically, testing for the categories of triggers known to be used in backdoor research. This is not fully solved, but it's the direction defense needs to move.
 
+**Related resources:** For a continuously-updated index of AI and ML CVEs covering supply chain and model artifact vulnerabilities, see [mlcves.com](https://mlcves.com). The academic research on backdoor attacks and poisoning techniques is cataloged at [adversarialml.dev](https://adversarialml.dev). Defense-focused guidance on protecting training pipelines and validating model artifacts is available at [aidefense.dev](https://aidefense.dev).
+
 ## References
 
 - Gu, T. et al. (2017). [BadNets: Identifying Vulnerabilities in the Machine Learning Model Supply Chain](https://arxiv.org/abs/1708.06733). arXiv:1708.06733.
 - Wan, A. et al. (2023). [Poisoning Language Models During Instruction Tuning](https://arxiv.org/abs/2305.00944). arXiv:2305.00944.
 - Hugging Face. [Pickle security: malicious models and safetensors](https://huggingface.co/blog/pickle-security).
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

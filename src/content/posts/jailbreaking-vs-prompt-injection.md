@@ -100,8 +100,15 @@ When triaging an AI security incident or reviewing an AI deployment's risk postu
 
 Many real incidents involve both. But starting with the right frame points you toward the right mitigations.
 
+**Related resources:** [promptinjection.report](https://promptinjection.report) maintains a structured taxonomy of prompt injection techniques — both direct and indirect — that is useful when mapping a specific incident to its attack class. For jailbreak technique documentation including current effective patterns, [jailbreakdb.com](https://jailbreakdb.com) catalogs known techniques with the model families they affect. Defense patterns for both attack classes are covered at [aidefense.dev](https://aidefense.dev).
+
 ## Sources
 
 - [OWASP LLM Top 10 — LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — OWASP's top-ranked LLM risk, with direct and indirect injection taxonomy and mitigation guidance.
 - [Greshake et al. (2023): Indirect Prompt Injection Attacks on LLM-Integrated Applications](https://arxiv.org/abs/2302.12173) — systematic demonstration of indirect injection against real LLM-integrated systems.
 - [Zou et al. (2023): Universal and Transferable Adversarial Attacks on Aligned Language Models](https://arxiv.org/abs/2307.15043) — the GCG paper demonstrating transferable adversarial suffixes against aligned LLMs.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

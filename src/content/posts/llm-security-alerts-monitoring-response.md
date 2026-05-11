@@ -243,3 +243,8 @@ These four controls take hours to implement and cover the highest-risk event cat
 - [CISA AI Security Guidance](https://www.cisa.gov/ai) — CISA's AI security guidance including monitoring and incident response recommendations.
 - [NIST AI Risk Management Framework](https://airc.nist.gov/RMF/1) — NIST AI RMF, covering GOVERN and MANAGE functions relevant to monitoring.
 - [NVD CVE Database](https://nvd.nist.gov/vuln/search) — primary CVE database for LLM infrastructure component vulnerabilities.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

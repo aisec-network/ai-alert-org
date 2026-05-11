@@ -80,8 +80,15 @@ The consistent finding across these incidents: the disclosure happens through no
 
 By 2026, "we didn't have an AI policy yet" is no longer an acceptable explanation.
 
+**Related resources:** For ongoing coverage of AI privacy and data handling incidents in enterprise contexts, see [aiprivacy.report](https://aiprivacy.report). Teams looking for technical controls to govern what employees can send to external AI APIs may find the guardrail libraries reviewed at [guardml.io](https://guardml.io) useful as a complement to policy-based controls. The broader pattern of accidental enterprise data disclosure to AI systems is cataloged alongside intentional incidents at [aiattacks.dev](https://aiattacks.dev), and organizations building an AI security policy framework may find the tool reviews at [aisecreviews.com](https://aisecreviews.com) useful for selecting appropriate data-loss prevention tooling.
+
 ## References
 
 - TechCrunch. [Samsung bans use of generative AI tools after internal data leak](https://techcrunch.com/2023/05/02/samsung-bans-use-of-generative-ai-tools-like-chatgpt-after-internal-data-leak/). May 2023.
 - ENISA. [AI Threat Landscape](https://www.enisa.europa.eu/publications/enisa-ai-threat-landscape).
 - OpenAI Enterprise. [Enterprise privacy and security](https://openai.com/enterprise-privacy).
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

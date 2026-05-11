@@ -99,3 +99,8 @@ For ongoing tracking of ML supply chain threats, [adversarialml.dev](https://adv
 - [Hugging Face: Pickle Security](https://huggingface.co/blog/pickle-security) — explanation of the pickle deserialization risk and safetensors migration.
 - [JFrog: Malicious Models on the Hugging Face Hub (2024)](https://jfrog.com/blog/data-scientists-targeted-malicious-hugging-face-ml-models-with-silent-backdoor/) — technical analysis of discovered malicious model payloads.
 - [Safetensors documentation](https://huggingface.co/docs/safetensors/index) — format specification and migration guidance.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

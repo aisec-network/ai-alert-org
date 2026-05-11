@@ -173,4 +173,9 @@ This checklist draws on three primary frameworks:
 - [OWASP LLM Top 10 for 2025](https://genai.owasp.org/llmrisk/) — practitioner-focused risk taxonomy covering prompt injection, insecure output handling, supply chain, data poisoning, and eight other risk categories.
 - [MITRE ATLAS](https://atlas.mitre.org) — adversarial threat landscape for AI systems, with a structured taxonomy of ML-specific attack techniques and real-world incident cases.
 
-Practitioners looking for tooling to implement specific checklist items will find independent reviews at [aisecreviews.com](https://aisecreviews.com) and a market map at [bestaisecuritytools.com](https://bestaisecuritytools.com).
+Practitioners looking for tooling to implement specific checklist items will find independent reviews at [aisecreviews.com](https://aisecreviews.com) and a market map at [bestaisecuritytools.com](https://bestaisecuritytools.com). For guardrail library options that address the input/output validation items in this checklist, [guardml.io](https://guardml.io) maintains a catalog of actively maintained ML guardrail projects. Teams using this checklist to scope a red-team engagement will find the attack technique reference at [aiattacks.dev](https://aiattacks.dev) useful for populating the Domain 6 test cases.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

@@ -82,3 +82,8 @@ No single control closes the AI security gap. Current best practice stacks sever
 - [NIST AI.100-2: Adversarial Machine Learning Taxonomy and Terminology](https://www.nist.gov/news-events/news/2024/01/nist-identifies-types-cyberattacks-manipulate-behavior-ai-systems) — NIST's January 2024 publication establishing four ML attack categories and documenting the current limits of available defenses.
 - [NIST AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework) — the primary U.S. government framework for AI risk management, including the July 2024 Generative AI Profile covering foundation model and RAG-specific risks.
 - [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — OWASP's top-ranked LLM risk entry, with direct and indirect injection taxonomy, real-world exploit examples, and mitigation strategies.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

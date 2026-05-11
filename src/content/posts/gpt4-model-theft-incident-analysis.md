@@ -90,8 +90,15 @@ The distillation case is particularly relevant. Knowledge distillation — train
 
 If your organization is on the other side — using a commercial model API rather than offering one — the relevant concern is not extraction of your vendor's model but the data your queries contain. Your queries to commercial APIs may contain proprietary business logic, customer data, or sensitive context. That data trains or influences future model versions depending on your contract. Review your vendor's data handling terms before treating API-based inference as equivalent to on-premise deployment.
 
+**Related resources:** The academic research foundation for model extraction attacks is mapped at [adversarialml.dev](https://adversarialml.dev). For the privacy implications of training data extraction and membership inference — the related attack class that concerns what the model has already memorized — see [aiprivacy.report](https://aiprivacy.report).
+
 ## Sources
 
 - [Carlini et al. (2024): Stealing Part of a Production Language Model](https://arxiv.org/abs/2403.06634) — demonstration of architectural parameter extraction from GPT-3.5-turbo and GPT-4 using logprobs.
 - [Nasr et al. (2023): Scalable Extraction of Training Data from Production LLMs](https://arxiv.org/abs/2311.17035) — systematic demonstration of verbatim training data extraction from ChatGPT and other production models.
 - [Wallace et al. (2020): Thieves on Sesame Street](https://arxiv.org/abs/1910.12366) — foundational work on functional extraction of BERT-based APIs.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

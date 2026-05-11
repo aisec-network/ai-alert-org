@@ -112,3 +112,8 @@ The architectural decisions being made in 2025 deployments will shape the incide
 - [Greshake et al. (2023): Indirect Prompt Injection Attacks on LLM-Integrated Applications](https://arxiv.org/abs/2302.12173) — foundational research on injection in agentic systems.
 - [AgentDojo (2024): A Dynamic Environment to Evaluate Attacks and Defenses for LLM Agents](https://arxiv.org/abs/2406.13352) — controlled evaluation benchmark for agent attack/defense.
 - [OWASP LLM08:2025 Vector and Embedding Weaknesses](https://genai.owasp.org/llmrisk/llm08-vector-and-embedding-weaknesses/) — OWASP coverage of RAG and memory manipulation attack surfaces.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

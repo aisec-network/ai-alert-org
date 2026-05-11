@@ -113,3 +113,8 @@ The [jailbreakdb.com](https://jailbreakdb.com) database provides ongoing trackin
 - [Crescendo (arXiv:2404.01833)](https://arxiv.org/abs/2404.01833) — Microsoft Research's multi-turn jailbreak demonstration.
 - [Zou et al.: Universal and Transferable Adversarial Attacks on Aligned Language Models (arXiv:2307.15043)](https://arxiv.org/abs/2307.15043) — GCG adversarial suffix attack and transfer results.
 - [GPT-4 Technical Report — Safety Evaluations](https://arxiv.org/abs/2303.08774) — baseline documentation of GPT-4 safety evaluation methodology.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

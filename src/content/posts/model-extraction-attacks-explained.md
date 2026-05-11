@@ -85,8 +85,15 @@ Model extraction cannot be fully prevented against a sufficiently determined adv
 
 For organizations with genuinely proprietary models (significant investment in domain-specific fine-tuning, competitive differentiation from model capabilities), embedding output watermarks and monitoring for API abuse are the highest-value controls.
 
+**Related resources:** The research literature on model extraction and model stealing attacks is mapped at [adversarialml.dev](https://adversarialml.dev). For the privacy angle — specifically membership inference and training data extraction — [aiprivacy.report](https://aiprivacy.report) covers how these attacks affect individuals whose data may be in the training set. Benchmarks for measuring how well a model resists extraction attempts are tracked at [aisecbench.com](https://aisecbench.com).
+
 ## References
 
 - Tramèr, F. et al. (2016). [Stealing Machine Learning Models via Prediction APIs](https://arxiv.org/abs/1609.02943). arXiv:1609.02943.
 - See, C. et al. (2023). [Model Leeching: An Extraction Attack Targeting LLMs](https://arxiv.org/abs/2309.10544). arXiv:2309.10544.
 - Orekondy, T. et al. (2018). [Knockoff Nets: Stealing Functionality of Black-Box Models](https://arxiv.org/abs/1812.02766). arXiv:1812.02766.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

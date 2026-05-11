@@ -118,3 +118,10 @@ These thresholds are starting points, not universal standards. Adjust based on y
 - NIST. [AI Risk Management Framework](https://www.nist.gov/itl/ai-risk-management-framework).
 - Mazeika, M. et al. (2024). [HarmBench: A Standardized Evaluation Framework for Automated Red Teaming](https://arxiv.org/abs/2402.04249). arXiv:2402.04249.
 - MLCommons. [AILuminate v1.0 AI Safety Benchmark](https://mlcommons.org/2024/04/mlc-aisafety-v0-5-results/).
+
+Independent reviews of specific AI security tools — guardrail libraries, prompt injection detectors, and LLM scanners — are available at [aisecreviews.com](https://aisecreviews.com), which can serve as a source of both candidate tools and comparison benchmarks for evaluation. For attack-category coverage validation, the attack technique catalog at [aiattacks.dev](https://aiattacks.dev) provides a structured taxonomy to map your test set against.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

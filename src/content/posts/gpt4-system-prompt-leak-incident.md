@@ -74,8 +74,15 @@ You cannot fully prevent system prompt extraction against a sufficiently motivat
 
 The practical goal is raising the cost of extraction above the benefit for most attackers, and detecting when extraction is occurring. For most organizations, that's achievable. Treating the system prompt as a cryptographic secret that can never be disclosed is not achievable with current architectures.
 
+**Related resources:** [promptinjection.report](https://promptinjection.report) provides a taxonomy of prompt injection and system prompt extraction techniques including the latest documented variants. For guardrail libraries that implement output filtering to catch verbatim system prompt leaks, see [guardml.io](https://guardml.io).
+
 ## References
 
 - Perez, F. & Ribeiro, I. (2022). [Ignore Previous Prompt: Attack Techniques For Language Models](https://arxiv.org/abs/2211.09527). arXiv:2211.09527.
 - Greshake, K. et al. (2023). [Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173). arXiv:2302.12173.
 - OWASP. [LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/).
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

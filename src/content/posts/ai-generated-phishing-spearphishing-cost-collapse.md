@@ -67,10 +67,15 @@ Detection signals that remain meaningful:
 - **Link and attachment analysis:** LLMs improve email text quality but don't change the properties of malicious links or attachments, which remain detectable via URL reputation and sandboxing.
 - **Payment process controls:** Multi-step payment verification controls (call-back procedures for wire transfers, dual-approval requirements) remain the most reliable control against BEC.
 
-For organizations tracking the threat landscape on AI-abused capabilities, the [AI Incidents database](https://aiincidents.org) tracks incidents where AI tools were used offensively. The adversarialml.dev research digest covers academic work on AI-enabled attack capabilities.
+For organizations tracking the threat landscape on AI-abused capabilities, the [AI Incidents database](https://aiincidents.org) tracks incidents where AI tools were used offensively. [adversarialml.dev](https://adversarialml.dev) covers academic work on AI-enabled attack capabilities, including research on LLM-assisted social engineering. For defensive controls that can help detect AI-generated phishing at the organizational layer, see [aidefense.dev](https://aidefense.dev).
 
 ## Sources
 
 - [NCSC: Near-Term Impact of AI on Cyber Threat (2024)](https://www.ncsc.gov.uk/report/impact-of-ai-on-cyber-threat) — authoritative government assessment.
 - [IBM X-Force Threat Intelligence Index 2025](https://www.ibm.com/reports/threat-intelligence) — commercial threat intelligence with BEC data.
 - [Abnormal Security BEC Report](https://abnormalsecurity.com) — email security vendor data on AI-generated BEC campaigns.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

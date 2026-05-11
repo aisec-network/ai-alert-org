@@ -109,8 +109,15 @@ Organizations with significant AI deployments should build internal AI red-team 
 
 Tools to equip the team with: Garak for automated coverage, LangChain and the Anthropic/OpenAI SDKs for building custom probes, a finding management system (even a shared spreadsheet is better than nothing), and access to the internal deployment under test with logging visibility.
 
+**Related resources:** For a curated catalog of jailbreak techniques that red teams commonly test against, see [jailbreakdb.com](https://jailbreakdb.com). The full taxonomy of attack techniques relevant to LLM red-teaming is mapped at [aiattacks.dev](https://aiattacks.dev), and [adversarialml.dev](https://adversarialml.dev) covers the underlying adversarial ML research those techniques draw from.
+
 ## References
 
 - Microsoft. [Microsoft's AI Red Team: Building future of safer AI](https://www.microsoft.com/en-us/security/blog/2023/08/07/microsofts-ai-red-team-building-future-of-safer-ai/).
 - Ganguli, D. et al. (2022). [Red Teaming Language Models to Reduce Harms](https://www.anthropic.com/research/red-teaming-language-models-to-reduce-harms). Anthropic.
 - NIST. [AI Risk Management Framework (AI RMF 1.0)](https://doi.org/10.6028/NIST.AI.100-1).
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*

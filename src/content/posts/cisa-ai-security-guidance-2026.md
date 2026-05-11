@@ -171,3 +171,8 @@ For the CISA KEV specifically, the JSON feed at `cisa.gov/sites/default/files/fe
 - [CISA Guidelines for Secure AI System Development](https://www.cisa.gov/resources-tools/resources/guidelines-secure-ai-system-development) — joint guidance with UK NCSC and partner agencies.
 - [CISA Known Exploited Vulnerabilities Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — KEV catalog and JSON feed.
 - [NIST AI Risk Management Framework](https://airc.nist.gov/RMF/1) — NIST AI RMF, referenced in CISA guidance.
+
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
