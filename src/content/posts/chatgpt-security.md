@@ -53,7 +53,7 @@ The list below is ordered roughly by leverage per hour of work, based on what sh
 3. **Configure retention.** Enterprise lets admins set conversation retention windows; align them with your existing records policy. Default-forever is rarely the right answer.
 4. **Govern connectors and custom GPTs.** Restrict third-party GPTs by default. For the Connectors that link ChatGPT to Google Drive, SharePoint, GitHub, etc., apply least-privilege scopes and log access. A connector with broad read access is a prompt-injection blast radius.
 5. **Treat outputs as untrusted input to downstream systems.** If you pipe ChatGPT output into a build script, a database query, or an email — assume it can contain attacker-controlled content from an indirect injection chain. Apply the same output sanitization you would to any user-supplied data. [Guardrails and runtime defenses](https://guardml.io) sit at this layer.
-6. **Train users on what not to paste.** PII, source code containing secrets, customer records, M&A material, security incident details, and credentials should not enter any LLM that you do not control. The simplest policy is the one that gets followed.
+6. **Train users on what not to paste.** PII, source code containing secrets, customer records, M&A material, [security incident](https://aiincidents.org/) details, and credentials should not enter any LLM that you do not control. The simplest policy is the one that gets followed.
 7. **Audit.** ChatGPT Enterprise exposes audit logs via the Compliance API. Pipe them to your SIEM and alert on bulk exports, role changes, and connector additions.
 
 ## What's coming
@@ -69,3 +69,5 @@ ChatGPT is not insecure. The way most organizations deploy it is.
 - [OWASP GenAI Top 10 — LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — authoritative classification of prompt injection as the leading LLM application risk, with attack types and example scenarios.
 - [OpenAI Business data, privacy, and security](https://openai.com/business-data/) — specifics on data ownership, training exclusions, and admin controls across ChatGPT Enterprise, Team, Edu, and the API.
 - [OWASP LLM Prompt Injection Prevention Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/LLM_Prompt_Injection_Prevention_Cheat_Sheet.html) — practical mitigation patterns including privilege constraints, segregation of external content, and human approval for high-impact actions.
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.

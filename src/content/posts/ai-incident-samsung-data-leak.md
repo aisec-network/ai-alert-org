@@ -72,7 +72,7 @@ More durable policy responses include:
 
 ## The Broader Incident Category
 
-Samsung was the first major publicized instance of a class of incidents that security incident databases now track under labels like "AI-facilitated data exfiltration" or "inadvertent AI disclosure." Similar incidents involving internal code, customer records, and litigation-sensitive documents have been reported at financial institutions, healthcare organizations, and government contractors since 2023.
+Samsung was the first major publicized instance of a class of incidents that [security incident](https://aiincidents.org/) databases now track under labels like "AI-facilitated data exfiltration" or "inadvertent AI disclosure." Similar incidents involving internal code, customer records, and litigation-sensitive documents have been reported at financial institutions, healthcare organizations, and government contractors since 2023.
 
 The ENISA AI Threat Landscape report includes "data leakage via AI interfaces" as a distinct threat category, distinct from traditional data breach patterns because the disclosure mechanism is a legitimate productivity workflow rather than an adversarial attack.
 

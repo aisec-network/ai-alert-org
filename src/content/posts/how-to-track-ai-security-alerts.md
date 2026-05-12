@@ -141,11 +141,11 @@ arXiv publishes daily digest emails by category. For AI security tracking, monit
 
 **How to monitor:** arXiv email lists (`arxiv.org/help/subscribe`). Semantic Scholar and Papers With Code APIs for keyword-based filtering.
 
-### AI Incident Database
+### [AI Incident](https://aiincidents.org/) Database
 
 The AI Incident Database (AIID) at `incidentdatabase.ai` maintains a structured record of AI-related incidents, including security incidents. AIID's taxonomy is broader than security-only (it includes safety incidents, bias incidents, and operational failures), but filtering for security-relevant entries provides a useful longitudinal view of how AI security incidents materialize in production.
 
-**Cadence:** Continuous additions; weekly digest available.
+**Cadence:** Continuous additions; [weekly digest](https://aisecweekly.com/) available.
 
 **How to monitor:** AIID RSS feed and email subscription.
 
@@ -224,3 +224,5 @@ For teams building out AI security alert processes from scratch, the [AI securit
 ---
 
 *→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.

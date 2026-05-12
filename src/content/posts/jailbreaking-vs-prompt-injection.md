@@ -93,7 +93,7 @@ This is why building a defense against only one class leaves a gap. An applicati
 
 ## Operational Takeaway
 
-When triaging an AI security incident or reviewing an AI deployment's risk posture, ask which class you are dealing with:
+When triaging an AI [security incident](https://aiincidents.org/) or reviewing an AI deployment's risk posture, ask which class you are dealing with:
 
 - Did the attack originate from user input? Is the goal to get the model to produce refused content? That is jailbreaking. Defense is behavioral and model-facing.
 - Did the attack originate from external content the model processed? Is the goal to execute unauthorized actions or exfiltrate data? That is prompt injection. Defense is architectural and application-facing.

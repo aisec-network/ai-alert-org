@@ -179,3 +179,9 @@ Practitioners looking for tooling to implement specific checklist items will fin
 ---
 
 *→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)
+- [weekly AI security roundup](https://aisecweekly.com/)

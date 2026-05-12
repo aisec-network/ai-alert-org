@@ -72,6 +72,8 @@ The other piece worth flagging is the affiliate-model angle. GandCrab and REvil 
 
 For everyone running a ransomware-readiness program, the operational posture has not changed. Patch the perimeter. Segment the network. Enforce phishing-resistant MFA. Test the backup restore. Have the incident response retainer in place. Decide the ransom-payment policy in advance, not on the day of the attack. None of that is new. The BKA's notices are a reminder that the people on the other side of those defenses are real, identifiable, and increasingly being treated as such by the agencies whose job it is to make their lives expensive.
 
+The AI-augmented ransomware tradecraft described above — LLMs drafting phishing pretexts, triaging stolen data for extortion — is tracked at [aiattacks.dev](https://aiattacks.dev), which maps offensive AI techniques used by active threat groups. For practitioners concerned about the data exfiltration and privacy implications of ransomware breaches, [aiprivacy.report](https://aiprivacy.report) covers the intersection of AI and personal data exposure. Defense controls for the AI-assisted intrusion paths that modern ransomware affiliates use are catalogued at [aidefense.dev](https://aidefense.dev).
+
 ## Sources
 
 - [Germany Doxes "UNKN," Head of RU Ransomware Gangs REvil, GandCrab — KrebsOnSecurity](https://krebsonsecurity.com/2026/04/germany-doxes-unkn-head-of-ru-ransomware-gangs-revil-gandcrab/) — Brian Krebs's original write-up of the BKA disclosure, with detail on the alias history and the 2023 U.S. DOJ filing referencing the $317,000 crypto wallet linked to Shchukin.
@@ -86,3 +88,9 @@ For everyone running a ransomware-readiness program, the operational posture has
 - [FTC logs $2.1B in social media scam losses as TAKE IT DOWN deadline lands](https://neuralwatch.org/posts/threatsday-bulletin-sms-blaster-busts-openemr-flaws-600k-rob/) — *neuralwatch.org*
 - [The Agent Authority Gap Is an Observability Problem in a Security Costume](https://sentryml.com/posts/weekly-bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
 - [The Authority Gap Is an Observability Problem: What MLOps Teams Should Borrow](https://sentryml.com/posts/bridging-the-ai-agent-authority-gap-continuous-observability/) — *sentryml.com*
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)
+- [weekly AI security roundup](https://aisecweekly.com/)

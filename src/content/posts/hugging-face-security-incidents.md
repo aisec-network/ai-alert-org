@@ -41,7 +41,7 @@ The models were not easily distinguishable from legitimate ones by casual inspec
 
 **What persists:** Pickle scanning is signature-based. Adversaries who want to place a payload in a model can construct novel payloads that are not detected by current signatures. The structural vulnerability — arbitrary code execution on model load — is not fixable without changing the serialization format. For any practitioner loading models from the Hub, the only reliable mitigation is using `safetensors` format with a library that does not execute code on deserialization.
 
-## The June 2024 Spaces Infrastructure Breach
+## The June 2024 Spaces Infrastructure [Breach](https://aiincidents.org/)
 
 In June 2024, Hugging Face disclosed that it had discovered unauthorized access to its Spaces infrastructure — the platform component that hosts interactive ML demos and applications. The disclosure was made via the Hugging Face blog.
 

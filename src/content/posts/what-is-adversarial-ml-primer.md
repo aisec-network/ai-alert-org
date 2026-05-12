@@ -85,8 +85,15 @@ Three things that do not come through clearly enough in most introductions:
 
 **There is no complete defense.** NIST's AI.100-2 is explicit: "there is no foolproof way as yet to protect AI from misdirection." Published mitigations "currently lack robust assurances that they fully mitigate the risks." Defense in depth, monitoring, and designing for graceful failure are the correct posture — not searching for a single control that closes the gap.
 
+**Related resources:** For deeper coverage of the research techniques introduced here — evasion, poisoning, and inference attacks — [adversarialml.dev](https://adversarialml.dev) catalogs the academic literature and tracks current research directions. Practical attack demonstrations and LLM-specific technique documentation are at [aiattacks.dev](https://aiattacks.dev). Defense architectures and mitigations for each attack class are covered at [aidefense.dev](https://aidefense.dev).
+
 ## Sources
 
 - [NIST AI.100-2: Adversarial Machine Learning Taxonomy](https://csrc.nist.gov/pubs/ai/100/2/e2023/final) — the primary U.S. government taxonomy for ML attacks and defenses, January 2024.
 - [Goodfellow et al. (2015): Explaining and Harnessing Adversarial Examples](https://arxiv.org/abs/1412.6572) — the foundational paper establishing adversarial examples and FGSM.
 - [Carlini & Wagner (2017): Towards Evaluating the Robustness of Neural Networks](https://arxiv.org/abs/1608.04644) — stronger adversarial attack methods showing limits of earlier defenses.
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

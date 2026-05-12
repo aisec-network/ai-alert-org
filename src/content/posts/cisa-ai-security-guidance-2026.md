@@ -66,7 +66,7 @@ Deployment-phase guidance focuses on configuration security and operational hard
 
 - **Authentication and authorization on inference endpoints.** AI model serving APIs should not be exposed without authentication. API keys or OAuth tokens with defined scope should be required. This sounds obvious, but exposed inference endpoints — including public Ollama instances and unprotected vLLM deployments — remain a consistent finding in AI security audits.
 - **Network exposure minimization.** Model serving infrastructure should follow the principle of least exposure: inference endpoints accessible only to systems that need them, with network controls preventing direct internet access to internal serving infrastructure.
-- **Secrets management.** API keys for foundation model providers (OpenAI, Anthropic, etc.) should be stored in a secrets management system, not in application code or environment variables on shared systems. Leakage of foundation model API keys is a frequent AI security incident category with direct financial impact.
+- **Secrets management.** API keys for foundation model providers (OpenAI, Anthropic, etc.) should be stored in a secrets management system, not in application code or environment variables on shared systems. Leakage of foundation model API keys is a frequent AI [security incident](https://aiincidents.org/) category with direct financial impact.
 - **Input and output monitoring.** Deployed AI systems should log inputs and outputs in a form that supports anomaly detection. CISA's guidance acknowledges that prompt injection via indirect input — from documents, web content, or other external sources — represents a significant deployment-phase risk for LLM-integrated systems.
 
 For organizations using LLMs with document processing or web-browsing capabilities, prompt injection through external content is a class of threat that requires specific monitoring and containment controls. See our analysis of [prompt injection via email AI agents](/posts/prompt-injection-email-ai-agents/) for a concrete example.
@@ -176,3 +176,8 @@ For the CISA KEV specifically, the JSON feed at `cisa.gov/sites/default/files/fe
 ---
 
 *→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
+
+## See also
+
+- [AI security digest](https://aisecdigest.com/)
+- [weekly AI security roundup](https://aisecweekly.com/)

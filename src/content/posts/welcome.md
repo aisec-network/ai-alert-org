@@ -26,4 +26,11 @@ What this site is not: a news aggregator, a take farm, or a vendor advisory. We 
 
 Pseudonymous editorial. Tips with primary sources to the editor.
 
+For deeper context on the attack classes we track, see the taxonomy at [AI Attacks](https://aiattacks.dev/), the jailbreak and prompt-injection corpus at [PromptInjection.report](https://promptinjection.report/), and the ML-specific CVE index at [MLCVEs.com](https://mlcves.com/).
+
 The catalog opens shortly.
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

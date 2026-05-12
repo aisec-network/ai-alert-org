@@ -49,7 +49,7 @@ Five items from May 5-9, 2026, selected for operational relevance to practitione
 
 ---
 
-## 4. Enterprise AI Vendor Discloses Training Pipeline Breach Affecting Customer Fine-Tune Data
+## 4. Enterprise AI Vendor Discloses Training Pipeline [Breach](https://aiincidents.org/) Affecting Customer Fine-Tune Data
 
 **What happened:** An enterprise AI vendor (details under NDA pending; disclosure coordinated) notified customers this week of a breach affecting their fine-tuning infrastructure. An attacker gained access to the pipeline used to run customer-submitted fine-tuning jobs. The breach period is estimated at approximately three weeks.
 
@@ -79,3 +79,7 @@ Five items from May 5-9, 2026, selected for operational relevance to practitione
 ---
 
 *This digest covers publicly available information and does not constitute legal or compliance advice. CVE details are covered in the [May 2026 CVE roundup](/posts/cve-roundup-ai-ml-may-2026/). Prior week's digest in the [site archive](/posts/).*
+
+**Related resources:** For a continuously-updated index of ML and AI CVEs — including the Ollama and vLLM vulnerabilities noted above — see [mlcves.com](https://mlcves.com). The RAG context-window poisoning research in item 2 is part of a broader class documented at [adversarialml.dev](https://adversarialml.dev). Teams assessing their defenses against the prompt injection and supply chain risks covered in this digest will find the controls taxonomy at [aidefense.dev](https://aidefense.dev) useful.
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.

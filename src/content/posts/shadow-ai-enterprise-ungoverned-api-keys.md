@@ -66,10 +66,12 @@ Samsung subsequently banned ChatGPT use on corporate networks and devices pendin
 
 **Secrets scanning in CI/CD.** Separately from the shadow AI discussion, ensuring that AI API keys (OpenAI, Anthropic, Google API keys) are scanned out of commits and configuration files prevents the downstream risk of these keys being exposed in code repositories.
 
-For teams tracking AI governance risks in the enterprise, the [AI Incidents database](https://aiincidents.org) documents cases where AI adoption produced security or privacy incidents in organizational contexts.
+For teams tracking AI governance risks in the enterprise, the [AI Incidents database](https://aiincidents.org) documents cases where AI adoption produced security or privacy incidents in organizational contexts. For ongoing coverage of how unsanctioned AI tool use creates privacy exposure for employees and customers, see [aiprivacy.report](https://aiprivacy.report). Teams building technical controls to govern API key usage and data flows can find relevant guardrail tooling reviewed at [guardml.io](https://guardml.io).
 
 ## Sources
 
 - [Samsung ChatGPT Data Leak](https://www.techradar.com/news/samsung-workers-leaked-sensitive-data-to-chatgpt) — widely reported incident details.
 - [NCSC AI Threats Report](https://www.ncsc.gov.uk/report/impact-of-ai-on-cyber-threat) — government threat assessment of AI in enterprise environments.
 - [Cloud Security Alliance AI Initiative](https://cloudsecurityalliance.org/research/topics/artificial-intelligence) — framework for AI security governance.
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.

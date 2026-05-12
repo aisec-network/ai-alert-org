@@ -38,7 +38,7 @@ For teams monitoring these attack classes in production, [aisec.blog](https://ai
 
 ## Data Exposure and Privacy Risks
 
-The most common generative AI data breach is not a sophisticated attack — it is an employee pasting confidential information into a public AI tool. [Proofpoint research](https://www.proofpoint.com/us/blog/information-protection/generative-ai-security-risks) found that 77% of enterprise employees who use AI have pasted company data into a chatbot query; 22% of those inputs included confidential personal or financial data. The problem compounds when organizations use third-party AI products that retain input data for model improvement by default.
+The most common generative AI data [breach](https://aiincidents.org/) is not a sophisticated attack — it is an employee pasting confidential information into a public AI tool. [Proofpoint research](https://www.proofpoint.com/us/blog/information-protection/generative-ai-security-risks) found that 77% of enterprise employees who use AI have pasted company data into a chatbot query; 22% of those inputs included confidential personal or financial data. The problem compounds when organizations use third-party AI products that retain input data for model improvement by default.
 
 Training data extraction is the technical underside of this. A model that was trained on sensitive data — internal code, customer records, proprietary documents — can leak that information through sufficiently targeted prompts. The attack does not require special access; it requires knowing what the model was trained on and crafting prompts that surface memorized content. NIST AI 600-1 classifies this as a data privacy risk and recommends differential privacy techniques, training data audits, and contractual controls on data retention with AI vendors.
 
@@ -69,3 +69,5 @@ The 24% of organizations with mature AI governance frameworks are not operating 
 - **[OWASP Top 10 for Large Language Model Applications 2025](https://genai.owasp.org/llm-top-10/)** — The 2025 update of the OWASP LLM risk list, incorporating two years of incident data and expanded coverage of agent security and supply chain vulnerabilities.
 
 - **[Generative AI Security Risks: What Enterprises Need to Know — Proofpoint](https://www.proofpoint.com/us/blog/information-protection/generative-ai-security-risks)** — Enterprise-focused analysis of data exposure, shadow AI, and social engineering risks, including survey data on employee AI usage behavior.
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.

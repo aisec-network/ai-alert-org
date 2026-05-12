@@ -79,9 +79,16 @@ Reading the diff between the 2023 and 2025 editions, a few themes emerge consist
 
 The OWASP Top 10 for LLMs is a useful baseline, not a complete framework. But tracking how it evolves is a reliable signal of where the practitioner community has accumulated real-world experience. The 2025 changes point clearly at agentic deployments, supply chain integrity, and the limits of system prompts as a security boundary.
 
+**Related resources:** [promptinjection.report](https://promptinjection.report) provides detailed coverage of the LLM01 prompt injection category including indirect injection techniques and real-world incident documentation. For the supply chain and model artifact risks highlighted in LLM03, [mlcves.com](https://mlcves.com) tracks CVEs across the ML toolchain. Defense patterns for the LLM02 insecure output handling class — including agent action validation and guardrail architectures — are covered at [aidefense.dev](https://aidefense.dev).
+
 ## Sources
 
 - [OWASP Top 10 for Large Language Model Applications 2025](https://genai.owasp.org/resource/owasp-top-10-for-llm-applications-2025/) — the primary reference.
 - [OWASP LLM AI Security & Governance Checklist](https://genai.owasp.org/resource/llm-ai-security-governance-checklist/) — companion checklist for enterprise deployments.
 - [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — expanded prompt injection taxonomy with agent-specific guidance.
 - [OWASP LLM10:2025 Unbounded Consumption](https://genai.owasp.org/llmrisk/llm10-unbounded-consumption/) — renamed and expanded denial-of-service entry.
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

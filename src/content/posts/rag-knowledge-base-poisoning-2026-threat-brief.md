@@ -73,3 +73,8 @@ For more on the underlying technical mechanisms of RAG attacks, see [RAG poisoni
 - [Greshake et al.: Indirect Prompt Injection Attacks on LLM-Integrated Applications](https://arxiv.org/abs/2302.12173) — foundational research on indirect injection in RAG-like systems.
 - [Carlini et al.: Poisoning Web-Scale Training Datasets is Practical](https://arxiv.org/abs/2302.10149) — data poisoning at scale.
 - [OWASP LLM Top 10 2025](https://genai.owasp.org) — LLM vulnerability taxonomy including RAG-specific risks.
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

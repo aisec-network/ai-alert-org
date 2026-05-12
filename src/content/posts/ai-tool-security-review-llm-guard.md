@@ -87,7 +87,7 @@ LLM Guard's detection capabilities are organized into input scanners (running on
 
 ## What It Complements
 
-LLM Guard fits alongside tools that address what it does not cover. [aisecreviews.com](https://aisecreviews.com) maintains independent reviews of the broader AI security tooling landscape, including model scanning tools and infrastructure-level defenses. [bestaisecuritytools.com](https://bestaisecuritytools.com) tracks the current state of the market for teams comparing options before procurement.
+LLM Guard fits alongside tools that address what it does not cover. [aisecreviews.com](https://aisecreviews.com) maintains independent reviews of the broader AI security tooling landscape, including model scanning tools and infrastructure-level defenses. [bestaisecuritytools.com](https://bestaisecuritytools.com) tracks the current state of the market for teams comparing options before procurement. For a broader catalog of guardrail libraries beyond LLM Guard — including frameworks for agent-level privilege control and output validation pipelines — see [guardml.io](https://guardml.io). Defense patterns and architectural guidance for complementing input/output filters with structural controls are covered at [aidefense.dev](https://aidefense.dev).
 
 For teams integrating LLM Guard into a broader security program: pair it with network-level logging of LLM API calls, separate monitoring of agent action traces, and periodic red-team exercises that target the scanner layer directly.
 
@@ -95,3 +95,9 @@ For teams integrating LLM Guard into a broader security program: pair it with ne
 
 - [LLM Guard on GitHub (protectai/llm-guard)](https://github.com/protectai/llm-guard) — source, scanner list, and integration documentation.
 - [LLM Guard Documentation](https://llm-guard.com) — official documentation including scanner configuration reference.
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.

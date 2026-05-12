@@ -103,7 +103,7 @@ None of the following controls eliminate the risk from adversarial agents — th
 
 The incident record from 2024-2025 is a sample, not a census. Most organizations operating agentic systems do not have the logging infrastructure to detect injection attacks reliably, let alone to identify them when they occur. The incidents documented here are those where someone was looking.
 
-As agentic systems become more capable — longer task horizons, more tool access, more autonomous decision-making — the impact potential of each incident class increases. A compromised agent with access to a single email account is a nuisance. A compromised orchestrator agent with access to production systems, code execution, and multi-user data is a significant breach.
+As agentic systems become more capable — longer task horizons, more tool access, more autonomous decision-making — the impact potential of each incident class increases. A compromised agent with access to a single email account is a nuisance. A compromised orchestrator agent with access to production systems, code execution, and multi-user data is a significant [breach](https://aiincidents.org/).
 
 The architectural decisions being made in 2025 deployments will shape the incident record of 2026 and beyond.
 

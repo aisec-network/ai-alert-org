@@ -106,7 +106,14 @@ Reading across these cases, several patterns are consistent:
 
 The [OWASP LLM Top 10](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) catalogues this class of risk at position one. Based on the 2024-2025 incident record, that ranking is accurate.
 
+**Related resources:** [promptinjection.report](https://promptinjection.report) maintains a running taxonomy of prompt injection techniques, including the indirect injection variants demonstrated in the incidents above. For teams building defenses against these patterns, [aidefense.dev](https://aidefense.dev) covers architectural controls for RAG systems, agent privilege minimization, and output validation. Guardrail libraries that can be deployed to detect and block injection payloads at runtime are reviewed at [guardml.io](https://guardml.io).
+
 ## Sources
 
 - [embracethered.com — Johann Rehberger's prompt injection research](https://embracethered.com) — comprehensive collection of real-world prompt injection demonstrations and responsible disclosures.
 - [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — top-ranked LLM risk with incident taxonomy.
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

@@ -5,7 +5,7 @@ pubDate: 2026-05-10
 author: "Theo Voss"
 tags: ["rag", "retrieval", "prompt-injection", "indirect-injection", "vector-database", "knowledge-base", "llm-security"]
 category: "deep-dive"
-heroImage: https://aisec-imagegen.th3gptoperator.workers.dev/featured/ai-alert.org/rag-poisoning-retrieval-attacks.png
+heroImage: /og-card.svg
 heroAlt: "RAG Poisoning: Retrieval-Augmented Generation Attack Techniques"
 sources:
   - title: "Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection"
@@ -91,8 +91,15 @@ Drawing from the above:
 
 RAG security is still an emerging area; the tooling for defending retrieval pipelines is less mature than for direct prompt injection. But the attack techniques are well-documented, and organizations deploying RAG systems should design their corpus access controls and retrieval pipelines with these attacks in mind.
 
+**Related resources:** [promptinjection.report](https://promptinjection.report) covers indirect prompt injection in depth, including the RAG-specific variants documented here. For defense-in-depth architectures for RAG systems — including corpus access controls, retrieval sanitization patterns, and context isolation — see [aidefense.dev](https://aidefense.dev). Guardrail libraries that can be integrated into retrieval pipelines to scan retrieved content before context insertion are reviewed at [guardml.io](https://guardml.io).
+
 ## References
 
 - Greshake, K. et al. (2023). [Not What You've Signed Up For: Compromising Real-World LLM-Integrated Applications with Indirect Prompt Injection](https://arxiv.org/abs/2302.12173). arXiv:2302.12173.
 - Zhong, Z. et al. (2023). [Poisoning Retrieval Corpora by Injecting Adversarial Passages](https://arxiv.org/abs/2310.19156). arXiv:2310.19156.
 - OWASP. [LLM02:2025 Sensitive Information Disclosure](https://genai.owasp.org/llmrisk/llm02-sensitive-information-disclosure/).
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

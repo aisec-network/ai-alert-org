@@ -92,3 +92,8 @@ For a broader catalog of real-world injection incidents across products, see [ou
 - [Johann Rehberger — M365 Copilot Prompt Injection Research](https://embracethered.com/blog/posts/2024/m365-copilot-prompt-injection/) — detailed technical writeup with PoC demonstrations.
 - [MSRC — Microsoft Security Advisories](https://msrc.microsoft.com) — vendor responses to disclosed vulnerabilities.
 - [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — classification and taxonomy.
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

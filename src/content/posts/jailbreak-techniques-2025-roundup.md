@@ -118,3 +118,5 @@ The [jailbreakdb.com](https://jailbreakdb.com) database provides ongoing trackin
 ---
 
 *→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.

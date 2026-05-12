@@ -71,3 +71,9 @@ For teams tracking CVEs specifically in ML components, [mlcves.com](https://mlcv
 - [CISA KEV Catalog](https://www.cisa.gov/known-exploited-vulnerabilities-catalog) — authoritative source for confirmed-exploited vulnerabilities.
 - [CISA AI Security Guidance](https://www.cisa.gov/ai) — CISA's AI-specific security recommendations.
 - [NVD CVE Database](https://nvd.nist.gov/vuln/search) — full CVE records including KEV-listed entries.
+
+---
+
+*→ This post is part of the [AI Security Intelligence Hub](/posts/ai-security-intelligence-hub) — the complete resource index for AI security on ai-alert.org.*
+
+For more context, [AI incident tracker](https://aiincidents.org/) covers related topics in depth.

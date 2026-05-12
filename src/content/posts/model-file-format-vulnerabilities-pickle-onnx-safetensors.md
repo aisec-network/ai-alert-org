@@ -79,10 +79,12 @@ For teams loading models from community sources:
 
 **Restrict ONNX custom operator loading** in serving infrastructure. Most production inference does not require custom operators; disabling this loading path reduces the ONNX attack surface meaningfully.
 
-The [Hugging Face security incident review](/posts/hugging-face-security-incidents/) covers the platform-level incidents in more detail. For current CVE tracking across model-loading components, [mlcves.com](https://mlcves.com) maintains a searchable database with component filters.
+The [Hugging Face [security incident](https://aiincidents.org/) review](/posts/hugging-face-security-incidents/) covers the platform-level incidents in more detail. For current CVE tracking across model-loading components, [mlcves.com](https://mlcves.com) maintains a searchable database with component filters.
 
 ## Sources
 
 - [Hugging Face: Pickle Security](https://huggingface.co/blog/pickle-security) — official advisory and migration guidance.
 - [SafeTensors documentation](https://huggingface.co/docs/safetensors/index) — format specification and security properties.
 - [JFrog: Malicious Models on Hugging Face Hub](https://jfrog.com/blog/data-scientists-targeted-malicious-hugging-face-ml-models-with-silent-backdoor/) — documented malicious model analysis.
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.

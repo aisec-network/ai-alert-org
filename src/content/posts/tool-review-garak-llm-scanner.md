@@ -128,8 +128,15 @@ The JSON output includes per-attempt details: the exact input sent, the model's 
 
 Garak is the most complete open-source option for systematic LLM vulnerability scanning. For organizations that have deployed LLM products or are evaluating fine-tunes, it should be part of the pre-deployment validation workflow. Its results should be interpreted as a floor, not a ceiling — passing Garak means you've covered the known catalogue, not that the model is secure.
 
+**Related resources:** Garak's jailbreak probe library draws on techniques documented in [jailbreakdb.com](https://jailbreakdb.com), which is a useful reference for understanding what each jailbreak probe is testing. For standardized benchmarks against which to compare your Garak results, see [aisecbench.com](https://aisecbench.com). The attack techniques underlying Garak's probe categories are mapped at [aiattacks.dev](https://aiattacks.dev).
+
 ## References
 
 - Derczynski, L. et al. (2024). [Garak: A Framework for LLM Red-Teaming](https://arxiv.org/abs/2406.11036). arXiv:2406.11036.
 - [github.com/NVIDIA/garak](https://github.com/NVIDIA/garak)
 - [docs.garak.ai](https://docs.garak.ai)
+
+## See also
+
+- [AI incident tracker](https://aiincidents.org/)
+- [AI security digest](https://aisecdigest.com/)

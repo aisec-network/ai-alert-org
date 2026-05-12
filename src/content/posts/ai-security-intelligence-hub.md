@@ -52,7 +52,7 @@ The cost of querying a proprietary LLM at scale has collapsed. Model extraction 
 Malicious model files containing pickle payloads that execute code on download. Covers the 2024 incident, how pickle exploitation works in model files, and what Hugging Face's SafeTensors migration means for practitioners.
 
 **[Hugging Face Security Incidents: Malicious Models, Stolen Tokens, and Hub Exposure](/posts/hugging-face-security-incidents)**
-A broader review of Hugging Face platform security incidents, including the 2024 Spaces infrastructure breach and the systemic risks of community-shared model weights.
+A broader review of Hugging Face platform security incidents, including the 2024 Spaces infrastructure [breach](https://aiincidents.org/) and the systemic risks of community-shared model weights.
 
 ---
 
@@ -127,3 +127,5 @@ CISA's published AI security guidance — secure-by-design AI principles, the AI
 ## Cross-Site Reading
 
 AI Alert covers threat intelligence and incident reporting. For offensive technique deep dives, see [aisec.blog](https://aisec.blog). For defensive engineering and guardrails, see [GuardML](https://guardml.io). For AI policy and regulatory coverage, see [NeuralWatch](https://neuralwatch.org).
+
+For more context, [AI security digest](https://aisecdigest.com/) covers related topics in depth.
