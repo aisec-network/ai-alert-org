@@ -18,7 +18,7 @@ schema:
   type: "TechArticle"
 ---
 
-Enterprises integrating large language models into production workflows now face a documented, expanding set of generative AI risks — catalogued formally by NIST in July 2024 and tracked annually by OWASP's Generative AI Security Project. Both frameworks converge on the same core finding: the attack surface is structurally different from traditional software vulnerabilities, and generic vulnerability management programs require modification to handle it.
+Enterprises integrating [large language models](https://techsentinel.news/posts/llm-security-risks/) into production workflows now face a documented, expanding set of [generative AI risks](https://techsentinel.news/posts/generative-ai-risks/) — catalogued formally by NIST in July 2024 and tracked annually by OWASP's Generative AI Security Project. Both frameworks converge on the same core finding: [the attack surface](https://aisec.blog/posts/llm-security/) is structurally different from traditional software vulnerabilities, and generic vulnerability management programs require modification to handle it.
 
 ## The NIST Taxonomy: 12 Risk Categories
 
@@ -72,3 +72,11 @@ Security teams deploying generative AI should map controls to each layer of the 
 - [OWASP Top 10 for LLM Applications 2025](https://genai.owasp.org/llm-top-10/) — Annual ranked list of discrete LLM attack patterns maintained by the OWASP Generative AI Security Project; updated for 2025 with supply-chain and embedding-layer entries.
 - [OWASP LLM01:2025 Prompt Injection](https://genai.owasp.org/llmrisk/llm01-prompt-injection/) — Technical specification for the top-ranked LLM vulnerability, covering direct and indirect injection vectors, detection methods, and input-validation mitigations.
 - [OWASP LLM04:2025 Data and Model Poisoning](https://genai.owasp.org/llmrisk/llm042025-data-and-model-poisoning/) — Covers pre-training, fine-tuning, and embedding-store poisoning vectors, including sleeper-agent backdoor patterns and dataset provenance controls.
+
+## Related across the network
+
+- [Generative AI Risks: A Practitioner's Guide to What Actually Matters](https://techsentinel.news/posts/generative-ai-risks/) — *techsentinel.news*
+- [LLM Security Risks: The Top Threats Facing Large Language Models in 2025](https://techsentinel.news/posts/llm-security-risks/) — *techsentinel.news*
+- [LLM Security: A Practitioner's Map of the Attack Surface](https://aisec.blog/posts/llm-security/) — *aisec.blog*
+- [AI Defense Techniques for LLMs: A Practitioner's Guide to Securing Large Language Models](https://aidefense.dev/posts/ai-defense-techniques-llm/) — *aidefense.dev*
+- [Machine Learning Security: Governance Frameworks, Supply Chain Risks, and Defender Priorities](https://techsentinel.news/posts/machine-learning-security-2/) — *techsentinel.news*
